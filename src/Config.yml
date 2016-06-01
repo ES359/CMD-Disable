@@ -1,0 +1,82 @@
+# Logging
+Log:
+  blocked-cmd: true
+  allowed-cmd: true
+##########################################
+# Main configuration file for <CMD-Disable>
+# This plugin allows you to configure the Commands that can be used by operators.
+###########################################
+# Permission error message.
+No-Permission: "%prefix% &7Error you cannot use this command as &4&lOP&7!"
+# Command Denied message
+restriction-msg: "%prefix% &7Error you cannot use this command as &4&lOP&7!"
+# Punish Enabled
+punish-Enabled: false
+# Functino to execute
+punish-command: "kick %player% %prefix% &4Don't use that command!"
+# plugin reload message.
+plugin-reloaded: "%prefix% &7The plugin has been &areloaded&7."
+# Help message.
+help-msg: ""
+# Allowed Commands
+allowed-cmds:
+  - /list
+  - /help
+  - /broadcast
+  - /alert
+  - /shout
+  - /spawn
+  - /tpa
+  - /tpaccept
+#
+blocked-cmds:
+  - /deop
+  - /op
+  - /rl
+  - /reload
+  - /stop
+  - /about
+  - /kill
+  - /ban
+  - /tempban
+  - /kick
+  - /mute
+  - /core
+  - /tp
+  - /eco
+  - /
+  - /?
+  - //
+  - /we
+  - //we
+  - /wg
+  - /worldguard
+  - /region
+  - /cd
+  - /cmddisable
+  - /cdisable
+  - /ban-ip
+  - /banip
+  - /pl
+  - /plugins
+  - /whois
+  - /seen
+  - /tphere
+  - /chat
+  - /playerlock
+  - /lock
+  - /pardon
+  - /banlist
+  - /tpall
+  - /toggledownfall
+  - /tellraw
+  - /save-on
+  - /save-all
+  - /pex
+  - /promote
+  - /motdlist
+  - /serverlist
+  - /pardon-ip
+  - /unbanip
+  - /pardonip
+  - /weather

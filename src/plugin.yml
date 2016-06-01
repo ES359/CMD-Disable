@@ -1,0 +1,11 @@
+name: CMD-Disable
+main: me.ES359.com.CDisable
+version: 0.0.1
+description: Restricts certain commands that Operators are allowed to use.
+author: ES
+website: Private Plugin only.
+
+commands:
+  cmddisable:
+    description: Administration command for CMD-Disable
+    aliases: [cmd, cdisable, cd]
